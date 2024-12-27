@@ -29,7 +29,8 @@ As tecnologias utilizadas incluem:
 - React
 - JavaScript
 - Typescript
-- Ferramentas auxiliares (Expo, NodeJS, VScode)
+- NodeJS
+- Expo
 
 ## 🔗 Links Úteis
 
