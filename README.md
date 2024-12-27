@@ -37,6 +37,6 @@ As tecnologias utilizadas incluem:
 - [DIO - Digital Innovation One](https://www.dio.me/)
 - [Expo - Ferramenta de desenvolvimento](https://docs.expo.dev/)
 
-## ❓ Problemas
-
-- Caso o comando do expo `npx create-expo-app my-app -t` esteja dando o erro ["não pode ser carregado porque a execução de scripts foi desabilitada neste sistema"](https://pt.stackoverflow.com/questions/220078/o-que-significa-o-erro-execu%C3%A7%C3%A3o-de-scripts-foi-desabilitada-neste-sistema), deve ser colocado o comando  `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` para o problema ser corrigido.
+## ⚠ Problemas
+### 📌Leitura de Script desabilitada
+Caso o comando do expo `npx create-expo-app my-app -t` esteja dando o erro ["não pode ser carregado porque a execução de scripts foi desabilitada neste sistema"](https://pt.stackoverflow.com/questions/220078/o-que-significa-o-erro-execu%C3%A7%C3%A3o-de-scripts-foi-desabilitada-neste-sistema), deve ser colocado o comando  `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` para o problema ser corrigido.
