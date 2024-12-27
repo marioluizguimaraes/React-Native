@@ -8,7 +8,7 @@ Ao longo do curso, serão explorados alguns tópicos que serão citados ao longo
 
 - Introdução ao React Native
 - Configuração do ambiente de desenvolvimento
-- Componentes básicos e avançados
+- Expo
 -   
 - 
 
