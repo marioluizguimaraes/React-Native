@@ -26,6 +26,7 @@ O objetivo deste repositório é:
 As tecnologias utilizadas incluem:
 
 - React Native
+- React
 - JavaScript
 - Typescript
 - Ferramentas auxiliares (Expo, NodeJS, VScode)
