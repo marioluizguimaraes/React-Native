@@ -36,6 +36,7 @@ As tecnologias utilizadas incluem:
 - [Documentação oficial do React Native](https://reactnative.dev/)
 - [DIO - Digital Innovation One](https://www.dio.me/)
 - [Expo - Ferramenta de desenvolvimento](https://docs.expo.dev/)
+- [Node - Download ](https://nodejs.org/pt) 
 
 ## ⚠ Problemas
 ### 📌Leitura de Script desabilitada
