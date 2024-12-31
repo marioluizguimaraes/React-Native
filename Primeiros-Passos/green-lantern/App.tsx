@@ -14,12 +14,14 @@ export default function App() {
     </View>
   );
 }
+
 const style2 = StyleSheet.create({
     texto:{
       fontSize: 24,
       fontWeight: 'bold'
     }
 });
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
