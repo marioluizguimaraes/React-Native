@@ -1,7 +1,7 @@
-import { StatusBar } from 'expo-status-bar';
-import {Text, View } from 'react-native';
+import { View } from 'react-native';
 import { BatLogo} from '../../components/BatLogo/BatLogo'
-import styles from './Style'
+import styles from './HomeStyle'
+import { BatTextInput } from '../../components/BatTextInput/BatTextInput';
 
 
 export default function Home(){
@@ -9,6 +9,9 @@ export default function Home(){
         <View style={styles.appContainer}>
             <View style={styles.logoContainer}>
                 <BatLogo/>
+            </View>
+            <View>
+                <BatTextInput/>
             </View>
         </View>
     )
