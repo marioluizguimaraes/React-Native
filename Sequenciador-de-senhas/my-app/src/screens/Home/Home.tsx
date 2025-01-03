@@ -6,8 +6,8 @@ import styles from './Style'
 
 export default function Home(){
     return(
-        <View style={styles.container}>
-            <View>
+        <View style={styles.appContainer}>
+            <View style={styles.logoContainer}>
                 <BatLogo/>
             </View>
         </View>
