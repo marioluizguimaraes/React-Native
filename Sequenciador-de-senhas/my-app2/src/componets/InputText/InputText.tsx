@@ -1,12 +1,15 @@
 import React from 'react';
 import { TextInput} from 'react-native';
-
 import { styles } from './InputTextStyles';
 
-export function InputText() {
+interface InputText{
+  pass:string
+}
+
+export function InputText(props: InputText) {
   return (
     <>
-      <TextInput placeholder='Senha' placeholderTextColor='#5C5C5C' style ={styles.input} />
+      <TextInput value={props.pass} placeholder='Senha' placeholderTextColor='#5C5C5C' style ={styles.input} />
     </>
   );
 }
