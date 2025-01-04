@@ -7,7 +7,7 @@ export function Logo() {
     <>
       <Image source={logo}  style={styles.logo} alt='cadiado roxo dentro de um reteangolo vertical branco'/>
       <Text style={styles.title} >Key Generator</Text>
-      <Text style={styles.subText}>Gere senhas seguras e manhetna-se seguro</Text>
+      <Text style={styles.subText}>Gere senhas seguras e mantenha-se seguro</Text>
     </>
   );
 }

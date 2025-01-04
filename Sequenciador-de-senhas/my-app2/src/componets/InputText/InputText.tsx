@@ -6,7 +6,7 @@ import { styles } from './InputTextStyles';
 export function InputText() {
   return (
     <>
-      <TextInput placeholder='senha' style ={styles.input} value=''/>
+      <TextInput placeholder='Senha' placeholderTextColor='#5C5C5C' style ={styles.input} />
     </>
   );
 }

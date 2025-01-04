@@ -9,10 +9,10 @@ export function ButtonImput() {
     <>
       <InputText/>
       <Pressable onPress={()=> {console.log('gerou senha')}} style={styles.buttonGenerat}>
-        <Text style={styles.textButton}> <Image source={arrow}/> Gerar Senha</Text>
+        <Text style={styles.textButton}> <Image source={arrow}/> Gerar Senha</Text>
       </Pressable>
       <Pressable onPress={()=> {console.log('Copiou senha')}} style={styles.buttonCopy}>
-        <Text style={styles.textButton}> <Image source={copy}/> Copiar Senha</Text>
+        <Text style={styles.textButton}> <Image source={copy}/> Copiar Senha</Text>
       </Pressable>
     </>
   );
