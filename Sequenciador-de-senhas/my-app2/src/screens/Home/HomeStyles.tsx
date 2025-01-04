@@ -8,5 +8,6 @@ export const styles = StyleSheet.create({
   },
   logoContainer:{
     flexDirection: 'column',   
+    
   }
 });
