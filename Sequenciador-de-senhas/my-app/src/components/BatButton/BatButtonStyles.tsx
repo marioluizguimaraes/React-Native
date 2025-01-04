@@ -9,6 +9,16 @@ export const styles = StyleSheet.create({
     letterSpacing: 0.5
   },
   button: {
-    
+    width: '100%',
+    marginTop: 8,
+    elevation: 2.5,
+    alignItems: 'center',
+    borderRadius: 7,
+    justifyContent: 'center',
+    paddingVertical: 12,
+    backgroundColor: 'black',
+    paddingHorizontal: 32,
+
+
   }
 });

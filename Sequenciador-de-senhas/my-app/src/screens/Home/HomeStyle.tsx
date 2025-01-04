@@ -20,8 +20,6 @@ const styles = StyleSheet.create({
     imputContainer:{
       width: '80%',
       alignItems: 'center',
-      borderWidth: 2,
-      borderColor: 'red',
       flexDirection: 'column'
     },
 
