@@ -15,7 +15,7 @@ export function BatButton() {
   }
 
   function handleCopyButton(){
-    Clipboard.setStringAsync(pass);
+    Clipboard.setStringAsync(pass); {/* funçao para copiar texto => 'npx expo install expo-clipboard' */}
   }
   
   return (
