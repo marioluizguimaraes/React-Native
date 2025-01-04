@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native'
 
 const styles = StyleSheet.create({
     appContainer: {
-      flex: 2,
+      flex: 1,
       alignItems: 'center',
       justifyContent: 'center',
       backgroundColor: '#333333',
@@ -19,9 +19,12 @@ const styles = StyleSheet.create({
     },
     imputContainer:{
       width: '80%',
+      alignItems: 'center',
       borderWidth: 2,
-      borderColor: 'red'
-    }
+      borderColor: 'red',
+      flexDirection: 'column'
+    },
+
   });
 
 export default styles;
