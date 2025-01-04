@@ -9,7 +9,10 @@ interface InputText{
 export function InputText(props: InputText) {
   return (
     <>
-      <TextInput value={props.pass} placeholder='Senha' placeholderTextColor='#5C5C5C' style ={styles.input} />
+      <TextInput value={props.pass} 
+      placeholder='Senha' 
+      placeholderTextColor='#5C5C5C' 
+      style ={styles.input} />
     </>
   );
 }

@@ -18,15 +18,19 @@ export function ButtonImput() {
     Clipboard.setStringAsync(pass)
   }
 
-
   return (
     <>
       <InputText pass={pass}/>
       <Pressable onPress={handleGeneratButton} style={styles.buttonGenerat}>
-        <Text style={styles.textButton}> <Image source={arrow}/> Gerar Senha</Text>
+        <Text style={styles.textButton}> 
+          <Image source={arrow}/>
+           Gerar Senha
+        </Text>
       </Pressable>
       <Pressable onPress={handleCopyButton} style={styles.buttonCopy}>
-        <Text style={styles.textButton}> <Image source={copy}/> Copiar Senha</Text>
+        <Text style={styles.textButton}>
+          <Image source={copy}/>
+           Copiar Senha</Text>
       </Pressable>
     </>
   );
