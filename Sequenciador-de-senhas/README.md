@@ -1,7 +1,3 @@
-Aqui está o README atualizado com as informações adicionais:  
-
----
-
 # 📱 Gerador de Senhas Seguras  
 
 Este é um aplicativo mobile desenvolvido com **React Native** que permite criar senhas aleatórias e seguras. O projeto faz parte dos meus estudos no curso de React Native da DIO e marca o início da minha jornada no desenvolvimento mobile! 🚀  
@@ -129,13 +125,3 @@ Para trabalhar com arquivos como **.jpeg**, **.png**, **.svg**, foi necessário 
 - Adicionar opções para personalizar o tamanho da senha.  
 - Implementar caracteres especiais na geração de senhas.  
 - Melhorar o design com novas bibliotecas de estilização.  
-- Publicar o app na Play Store e App Store.  
-
----
-
-## 📜 **Licença**  
-Este projeto está licenciado sob a licença [MIT](LICENSE).  
-
----
-
-Se precisar ajustar ou adicionar algo mais, é só avisar! 😊
