@@ -10,7 +10,7 @@ export default function Home(){
             <View style={styles.logoContainer}>
                 <BatLogo/>
             </View>
-            <View>
+            <View style={styles.imputContainer}>
                 <BatTextInput/>
             </View>
         </View>
