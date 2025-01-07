@@ -122,6 +122,5 @@ Para trabalhar com arquivos como **.jpeg**, **.png**, **.svg**, foi necessário 
 ---
 
 ## 🎯 **Próximos Passos**  
-- Adicionar opções para personalizar o tamanho da senha.  
-- Implementar caracteres especiais na geração de senhas.  
+- Adicionar opções para personalizar o tamanho da senha. 
 - Melhorar o design com novas bibliotecas de estilização.  
