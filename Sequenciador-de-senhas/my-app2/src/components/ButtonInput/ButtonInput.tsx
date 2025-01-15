@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Pressable, View, Text, Image } from 'react-native';
 import { styles } from './ButtonInputStyles';
-import copy from '../../../assets/copy 1.png'
-import arrow from '../../../assets/arrow-clockwise 1.png'
-import { InputText} from '../InputText/InputText'
+import copy from '../../../assets/copy 1.png';
+import arrow from '../../../assets/arrow-clockwise 1.png';
+import { InputText} from '../InputText/InputText';
 import generatPass from '../../service/PassGeneratService';
-import * as Clipboard from 'expo-clipboard'
+import * as Clipboard from 'expo-clipboard';
 
 export function ButtonImput() {
   let [pass, setPass] = useState('')
